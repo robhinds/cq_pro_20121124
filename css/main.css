@@ -1,0 +1,187 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+	padding-top:40px;
+	background: #ECECEC;
+	color: #333333;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:normal;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+h1{ 
+	font-family: Calluna-Regular, Georgia, serif; 
+	font-size: 4.8em;
+	font-weight: normal;
+}
+h5{
+	font-family: source-sans-pro, 'Source Sans Pro', 'Helvetica Neue', HelveticaNeue, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 45px;
+	font-weight: normal;
+}
+.quote{
+	font-family: source-sans-pro, 'Source Sans Pro', 'Helvetica Neue', HelveticaNeue, Helvetica, sans-serif;
+	font-size: 2.5em;
+	font-weight: 300;
+}
+.emphasize {
+	font-weight: 900;
+}
+.de-emphasize {
+	font-weight: 100;
+}
+
+.header-copy{
+	color: #333333;
+	letter-spacing: 0.02em;
+	text-align: right;
+	padding-top: 60px;
+	padding-right: 70px;
+	line-height: 1em;
+	font-family: Calluna-Regular, Georgia, serif;
+	font-size: 6.8em;
+	font-weight:normal;
+}
+.header-copy span{
+	color: red;
+}
+
+.text-center{
+	text-align:center
+}
+.text-justify{
+	text-align:justify;
+	text-justify:inter-word;
+}
+#maincontent{
+	margin-top:50px;
+}
+.section{
+	margin-top:75px;
+}
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette {
+  padding-top: 80px; /* Vertically center images part 1: add padding above and below text. */
+  overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image {
+  margin-top: -80px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+  margin-right: 40px;
+}
+.featurette-image.pull-right {
+  margin-left: 40px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.rounded-menu {
+	padding-left:30px;
+	padding-right:10px;
+	padding-top:30px;
+	padding-bottom:30px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:10px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -khtml-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.about-points{
+	padding-bottom: 60px;
+}
+
+/** COLOURS **/
+.white-bg {
+	background: white;
+}
+.trans-bg{
+	background: rgba(188, 194, 202, .2);
+}
+/** END COLOURS **/
+
+/** WEBFONTS **/
+@font-face {
+	font-family: 'Calluna-Regular';
+	src: url('../webfonts/24E13D_0_0.eot');
+	src: url('../webfonts/24E13D_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/24E13D_0_0.woff') format('woff'),url('../webfonts/24E13D_0_0.ttf') format('truetype');
+}
+/** END WEBFONTS **/
+
+
+/**  TWITTER BOOTSTRAP OVERRIDES **/
+.navbar-inner{
+	min-height: 60px;
+}
+.navbar .brand {
+	padding: 20px 20px 20px;
+}
+.navbar .nav > li > a {
+	padding: 20px 15px 20px;
+}
+.pull-right{
+	padding-right:70px;
+}
+/**  END TWITTER BOOTSTRAP OVERRIDES **/
+
+
+/** IMAGE FILTERS **/
+.grayscale img {
+    filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
+}
+.grayscale img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+/** END IMAGE FILTERS **/
+
+
+/** TWITTER API CSS**/
+
+#twitter h1 a {
+	display: block; margin: 0 0 15px 0;
+	font: Helvetica, Arial, Sans-Serif; color: gray;
+	text-decoration: none;
+}
+#twitter h1 a:hover { color: black; }
+	
+#twitter ul {
+	list-style: none; padding: 0 0 0 0px;
+}
+#twitter  {
+	padding: 10px;
+	background: rgba(188, 194, 202, .2);
+	border-radius: 20px; -moz-border-radius: 20px; -webkit-border-radius: 20px;
+}
+#twitter ul li a {
+	font: italic 14px/30px Georgia, Times, Serif;
+	color: #555b6e;
+}
+#twitter ul li a:hover { color: #1b2f6f; }	
+#twitter ul li span a {
+	font: 22px/30px Helvetica, Arial, Sans-Serif;
+}
